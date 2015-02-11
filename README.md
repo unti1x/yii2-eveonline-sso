@@ -13,7 +13,7 @@ The only required package is `yiisoft/yii2-authclient`
 Add line `"unti1x/yii2-eveonline-sso": "*"` in your `composer.json` into `require`-section 
 and then update packages or use following command:
 
-```!bash
+```bash
 composer require "unti1x/yii2-eveonline-sso" "*"
 ```
 
