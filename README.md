@@ -119,9 +119,7 @@ You can use something like this:
 Example code for views:
 
 Twig
-```html
-{{ use('yii/authclient/widgets/AuthChoice') }}
-
+```twig
 {% if app.user.isGuest %}
     <a href="{{ path('site/auth', {'authclient': 'eve-online-sso'}) }}">
         <img src="https://images.contentful.com/idjq7aai9ylm/18BxKSXCymyqY4QKo8KwKe/c2bdded6118472dd587c8107f24104d7/EVE_SSO_Login_Buttons_Small_White.png?w=195&h=30" alt="SSO auth" />
@@ -137,10 +135,7 @@ Twig
 
 PHP
 ```php
-<?php 
-    use yii\authclient\widgets\AuthChoice;
-    use yii\helpers\Url;
-?>
+<?php use yii\helpers\Url; ?>
 
 <?php if(Yii::$app->user->isGuest): ?>
     <a href="<?= Url::toRoute('site/auth', ['authclient' => 'eve-online-sso']) ?>">
