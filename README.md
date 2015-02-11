@@ -37,7 +37,7 @@ At first add extension as authclient into your web config:
                 // ...
 
                 'eve-online-sso' => [
-                    'class' => 'app\components\EveOnlineSSO',
+                    'class' => 'yii\authclient\clients\EveOnlineSSO',
                     'clientId' => 'Change to your client ID',
                     'clientSecret' => 'Change to your client secret',
                 ],
