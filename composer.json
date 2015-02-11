@@ -1,0 +1,17 @@
+{
+    "name": "unti1x/yii2-eveonline-sso",
+    "description": "OAuth2 client for EveOnline SSO",
+    "require": {
+        "yiisoft/yii2": "~2.0",
+        "yiisoft/yii2-authclient": "~2.0",
+        "php": ">=5.4"
+    },
+    "license": "CC BY-SA",
+    "authors": [
+        {
+            "name": "unti1x",
+            "email": "metallist90@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
