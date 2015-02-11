@@ -156,7 +156,7 @@ PHP
 ```
 
 ## Using API
-Since private CREST not released yet, the only available method is `validate`.
+Since private CREST not released yet, the only available method is `verify`.
 
 ## Links
 
