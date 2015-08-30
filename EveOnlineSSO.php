@@ -3,11 +3,6 @@ namespace yii\authclient\clients;
 
 use yii\authclient\OAuth2;
 
-/**
- * Description of EveOnlineSSOClient
- *
- * @author unti1x
- */
 class EveOnlineSSO extends OAuth2 {
 
     public $id = 'eve-online-sso';
